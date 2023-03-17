@@ -8,11 +8,8 @@ import CardHome from "./ResuseableComponents/CardHome";
 import ReusableLatest from "./ResuseableComponents/ReusableLatest";
 import { Link } from "react-router-dom";
 
-
-
 const Home = () => {
   const [detail] = useContext(store);
- 
 
   console.log(detail);
   return (
@@ -38,8 +35,8 @@ const Home = () => {
           </Link>
         </div>
         <div className="g2-g3">
-        <div className="g2">
-          {/* {detail
+          <div className="g2">
+            {/* {detail
             .filter((article) => {
               return article.category === "bollywood";
             })
@@ -53,18 +50,19 @@ const Home = () => {
                 author={item.author}
               />
             ))} */}
-          <Link to="/fitness">
-            {" "}
-            <img
-              src={
-                "https://images.indianexpress.com/2020/04/headstand-1200.jpg"
-              }
-              alt="not found" className="g2-img"
-            />
-          </Link>
-        </div>
-        <div className="g3">
-          {/* {detail
+            <Link to="/fitness">
+              {" "}
+              <img
+                src={
+                  "https://images.indianexpress.com/2020/04/headstand-1200.jpg"
+                }
+                alt="not found"
+                className="g2-img"
+              />
+            </Link>
+          </div>
+          <div className="g3">
+            {/* {detail
             .filter((article) => {
               return article.category === "bollywood";
             })
@@ -78,15 +76,16 @@ const Home = () => {
                 author={item.author}
               />
             ))} */}
-          <Link to="/Food">
-            {" "}
-            <img
-              src={
-                "https://media.istockphoto.com/photos/biryani-picture-id1305452646?b=1&k=20&m=1305452646&s=170667a&w=0&h=1M4qIQor9-oTbDFc8osB9TKQEEMBn7j_4D1Qy7hRdNk="
-              }
-              alt="not found" className="g3-img"
-            />
-          </Link>
+            <Link to="/Food">
+              {" "}
+              <img
+                src={
+                  "https://media.istockphoto.com/photos/biryani-picture-id1305452646?b=1&k=20&m=1305452646&s=170667a&w=0&h=1M4qIQor9-oTbDFc8osB9TKQEEMBn7j_4D1Qy7hRdNk="
+                }
+                alt="not found"
+                className="g3-img"
+              />
+            </Link>
           </div>
         </div>
       </div>
@@ -224,7 +223,6 @@ const Home = () => {
         </div>
       </div>
       <hr />
-      
     </>
   );
 };

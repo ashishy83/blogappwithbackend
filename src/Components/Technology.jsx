@@ -1,6 +1,4 @@
 import React from "react";
-// import { useContext } from "react";
-// import { store } from "./Details";
 import "./css/Technology.css";
 import ResusableArticle from "./ResuseableComponents/ReusableArticle";
 import AdBox from "./AdBox";
@@ -8,7 +6,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const Technology = () => {
-  // const [detail] = useContext(store);
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
