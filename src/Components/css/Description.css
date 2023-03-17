@@ -1,0 +1,50 @@
+.description-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% auto;
+  width: 90%;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.desc-img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.desc {
+  width: 50%;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.desc-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn-home{
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: lightgreen;
+    color: white;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 1080px) {
+    /* .details{
+       
+    } */
+}

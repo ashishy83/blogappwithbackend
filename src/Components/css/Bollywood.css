@@ -1,0 +1,10 @@
+.bolly-post{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 3%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+}

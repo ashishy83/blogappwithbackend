@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  background-color: #000000;
+  /* border: 1px solid red; */
+ /* margin-left: 4%; */
+ margin: 1% auto;
+}
+.navlink {
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 22px 'Montserrat';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-weight: bolder;
+  color: white;
+}
+
+.navlink:hover {
+  box-shadow: 0 5px 3px #f08080;
+}
+.header-link {
+  text-decoration: none;
+}
+

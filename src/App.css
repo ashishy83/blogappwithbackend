@@ -1,0 +1,23 @@
+.story-title {
+    text-align: left;
+    font: 40px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 3%;
+  }
+  
+  .story-hr {
+    width: 90px;
+    height: 3px;
+    background: #f08080 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 3%;
+    margin-top: -1%;
+  }
+
+/* 
+  *{
+    margin: 0%;
+    padding: 0;
+  } */

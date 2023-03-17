@@ -1,0 +1,58 @@
+.reuse-comp {
+    width: 465px;
+    height: 295px;
+    background-size: contain;
+    border-radius: 10px;
+    /* margin: 2%; */
+  }
+  
+  .image {
+    position: relative;
+    width: 465px;
+    height: 295px;
+    border-radius: 10px;
+  }
+  .heading {
+    position: relative;
+    bottom: 44%;
+    color: white;
+    left: 10px;
+    font: x-large "Montserrat", sans-serif;
+    width: 90%;
+    margin: 1%;
+  }
+  
+  .para {
+    position: relative;
+    bottom: 50%;
+    color: white;
+    left: 10px;
+    font: large "Montserrat", sans-serif;
+    /* margin: 1%; */
+  }
+  
+  .date-big {
+    text-align: left;
+    font: large "Montserrat";
+    letter-spacing: 0px;
+    color: #fcfcfc;
+    opacity: 0.57;
+    bottom: 35%;
+    position: relative;
+    left: 3%;
+  }
+  
+  .date {
+    text-align: left;
+    font: medium "Montserrat";
+    letter-spacing: 0px;
+    color: #fcfcfc;
+    opacity: 0.57;
+    bottom: 55%;
+    position: relative;
+    left: 3%;
+  }
+
+  .navlinks{
+    text-decoration: none;
+  }

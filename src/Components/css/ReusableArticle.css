@@ -1,0 +1,58 @@
+.latest-article-comp {
+  display: flex;
+  width: 100%;
+  height: 263px;
+  /* border: 1px solid red; */
+  margin: 1%;
+}
+.article-img {
+  /* width: 308px; */
+  width: 308px;
+height: 263px;
+  background: 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.article-para {
+  text-align: left;
+  font:  17px Open Sans;
+  letter-spacing: 0px;
+  color: #908d8d;
+  opacity: 1;
+}
+
+.article-date {
+  text-align: left;
+  font: 17px Montserrat;
+  letter-spacing: 0px;
+  color: #404040;
+  opacity: 1;
+}
+
+.article-heading {
+  
+  /* text-align: left; */
+  font: large 'Montserrat';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.article-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 1%;
+  /* border: 1px solid blue; */
+}
+.article-left{
+  width: 50%;
+}
+
+.navlink-article{
+  text-decoration: none;
+  color: inherit;
+}
